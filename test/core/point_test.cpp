@@ -1,9 +1,15 @@
 #include <algorithm>
 
-#include "point.h"
+#include "src/core/point.h"
 #include "gtest/gtest.h"
 
-TEST(point_test, parseLine_test)
+using namespace std;
+
+TEST(point_test, constructor_test)
 {
-    EXPECT_EQ(1,1);
+    Point::setDimension(2);
+    Point p("1 1 test");
+
+    EXPECT_EQ(2,Point::dimension());
+    EXPECT_EQ("1 1  test", p.toString());
 }

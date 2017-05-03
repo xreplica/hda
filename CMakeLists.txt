@@ -1,6 +1,8 @@
 cmake_minimum_required (VERSION 2.6)
 project(hda)
 
+enable_testing()
+
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 configure_file(CMakeLists.txt.in googletest-download/CMakeLists.txt)
