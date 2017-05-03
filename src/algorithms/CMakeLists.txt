@@ -1,0 +1,22 @@
+include_directories("${PROJECT_SOURCE_DIR}" "${PROJECT_SOURCE_DIR}/src/algorithms" "${PROJECT_SOURCE_DIR}/src/core")
+
+#add_library(fuzzycmeans OBJECT fuzzycmeans.cpp)
+#add_library(fuzzyentropy OBJECT fuzzyentropy.cpp)
+#add_library(hdiana OBJECT hdiana.cpp)
+#add_library(kmeans OBJECT kmeans.cpp)
+#add_library(kmeansplus OBJECT kmeansplus.cpp)
+#add_library(racamaic OBJECT racamaic.cpp)
+
+add_library(fuzzycmeans_static STATIC fuzzycmeans.cpp)
+add_library(fuzzyentropy_static STATIC fuzzyentropy.cpp)
+add_library(hdiana_static STATIC hdiana.cpp)
+add_library(kmeans_static STATIC kmeans.cpp)
+add_library(kmeansplus_static STATIC kmeansplus.cpp)
+add_library(racamaic_static STATIC racamaic.cpp)
+
+#add_library(fuzzycmeans SHARED fuzzycmeans.cpp)
+#add_library(fuzzyentropy SHARED fuzzyentropy.cpp)
+#add_library(hdiana SHARED hdiana.cpp)
+#add_library(kmeans SHARED kmeans.cpp)
+#add_library(kmeansplus SHARED kmeansplus.cpp)
+#add_library(racamaic SHARED racamaic.cpp)

@@ -1,0 +1,1 @@
+subdirs(algorithms cmds core)
