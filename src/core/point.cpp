@@ -132,7 +132,7 @@ string Point::toString() const
     for (unsigned int i=1; i<_featureSet.size(); ++i)
         oss << " " << _featureSet.at(i);
 
-    oss << " " << _label;
+    oss << _label;
 
     return oss.str();
 }

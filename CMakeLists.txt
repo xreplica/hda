@@ -24,9 +24,17 @@ set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 add_subdirectory(${CMAKE_BINARY_DIR}/googletest-src
                  ${CMAKE_BINARY_DIR}/googletest-build)
 
-if (CMAKE_VERSION VERSION_LESS 2.8.11)
+if(CMAKE_VERSION VERSION_LESS 2.8.11)
   include_directories("${gtest_SOURCE_DIR}/include")
 endif()
+
+
+if(NOT CMAKE_BUILD_TYPE)
+    set(CMAKE_BUILD_TYPE DEBUG)
+endif()
+
+set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -g --std=c++11 -Wall")
+set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} --std=c++11 -Wall -march=native -O3 -funroll-loops -fomit-frame-pointer -malign-double -fno-strict-aliasing -pipe -falign-loops=2 -falign-functions=2 -DCPU=native -ffast-math -Wno-deprecated")
 
 subdirs(src)
 subdirs(test)
