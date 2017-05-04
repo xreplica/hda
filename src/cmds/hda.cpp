@@ -14,8 +14,8 @@
 #include <cstdlib>
 
 #include "src/algorithms/hdiana.h"
-#include "src/core/validation.h"
-#include "src/core/params.h"
+#include "src/common/validation.h"
+#include "src/common/params.h"
 
 using namespace std;
 

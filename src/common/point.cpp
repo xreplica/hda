@@ -7,13 +7,13 @@
  * $Author: francois $
  * $Date: 2015-08-18 20:31:22 -0400 (Tue, 18 Aug 2015) $
  * $Revision: 38 $
- * $URL: https://127.0.0.1:10000/svn/hda/trunk/src/core/point.cpp $
+ * $URL: https://127.0.0.1:10000/svn/hda/trunk/src/common/point.cpp $
  */
 
 #ifndef __POINT_CPP__
 #define __POINT_CPP__
 
-#include "src/core/point.h"
+#include "src/common/point.h"
 
 unsigned int Point::_dimension = 2;             //2 dimensional objects by default
 Distance Point::metric = Distance(EUCLIDEAN);   //euclidean distance by default

@@ -1,4 +1,4 @@
-include_directories("${PROJECT_SOURCE_DIR}" "${PROJECT_SOURCE_DIR}/src/algorithms" "${PROJECT_SOURCE_DIR}/src/core")
+include_directories("${PROJECT_SOURCE_DIR}" "${PROJECT_SOURCE_DIR}/src/algorithms" "${PROJECT_SOURCE_DIR}/src/common")
 
 #add_library(fuzzycmeans OBJECT fuzzycmeans.cpp)
 #add_library(fuzzyentropy OBJECT fuzzyentropy.cpp)

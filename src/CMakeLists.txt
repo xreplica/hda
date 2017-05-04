@@ -1,1 +1,1 @@
-subdirs(algorithms cmds core)
+subdirs(algorithms cmds common)

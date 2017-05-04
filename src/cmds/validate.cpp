@@ -14,9 +14,9 @@
 #include <cstdlib>
 #include <fstream>
 
-#include "src/core/validation.h"
-#include "src/core/point.h"
-#include "src/core/cluster.h"
+#include "src/common/validation.h"
+#include "src/common/point.h"
+#include "src/common/cluster.h"
 
 using namespace std;
 

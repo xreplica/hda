@@ -1,4 +1,4 @@
-include_directories("${PROJECT_SOURCE_DIR}" "${PROJECT_SOURCE_DIR}/src/core")
+include_directories("${PROJECT_SOURCE_DIR}" "${PROJECT_SOURCE_DIR}/src/common")
 
 add_library(cluster OBJECT cluster.cpp)
 add_library(distance OBJECT distance.cpp)

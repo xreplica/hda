@@ -18,8 +18,8 @@
 
 #include <fstream>
 
-#include "src/core/cluster.h"
-#include "src/core/matrix.h"
+#include "src/common/cluster.h"
+#include "src/common/matrix.h"
 
 using namespace std;
 
@@ -38,7 +38,7 @@ private:
     bool            _stable;
 
 public:
-    
+
     //CONSTRUCTORS
     KMeans(string, unsigned int);
 
@@ -51,7 +51,7 @@ public:
     void   printClusters() const;
     void   run(unsigned int);
     void   initialize();
-    void   assign();    
+    void   assign();
     Point* removeFarthestPoint();
 };
 

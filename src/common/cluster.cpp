@@ -7,14 +7,14 @@
  * $Author: francois $
  * $Date: 2015-08-18 20:31:22 -0400 (Tue, 18 Aug 2015) $
  * $Revision: 38 $
- * $URL: https://127.0.0.1:10000/svn/hda/trunk/src/core/cluster.cpp $
+ * $URL: https://127.0.0.1:10000/svn/hda/trunk/src/common/cluster.cpp $
  */
 
 #ifndef __CLUSTER_CPP__
 #define __CLUSTER_CPP__
 
-#include "src/core/cluster.h"
-#include "src/core/distance.h"
+#include "src/common/cluster.h"
+#include "src/common/distance.h"
 
 double Cluster::_outlier = 5;
 double Cluster::_link = 0.5;

@@ -7,7 +7,7 @@
  * $Author: francois $
  * $Date: 2015-08-18 20:31:22 -0400 (Tue, 18 Aug 2015) $
  * $Revision: 38 $
- * $URL: https://127.0.0.1:10000/svn/hda/trunk/src/core/params.h $
+ * $URL: https://127.0.0.1:10000/svn/hda/trunk/src/common/params.h $
  */
 
 #ifndef __PARAMS_H__
@@ -15,7 +15,7 @@
 
 #include <string>
 
-#include "src/core/distance.h"
+#include "src/common/distance.h"
 
 using namespace std;
 

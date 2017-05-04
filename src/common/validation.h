@@ -15,7 +15,7 @@
  * $Author: francois $
  * $Date: 2015-08-18 20:31:22 -0400 (Tue, 18 Aug 2015) $
  * $Revision: 38 $
- * $URL: https://127.0.0.1:10000/svn/hda/trunk/src/core/validation.h $
+ * $URL: https://127.0.0.1:10000/svn/hda/trunk/src/common/validation.h $
  */
 
 #ifndef __VALIDATION_H__
@@ -25,9 +25,9 @@
 #include <algorithm>
 #include <map>
 
-#include "src/core/matrix.h"
-#include "src/core/point.h"
-#include "src/core/cluster.h"
+#include "src/common/matrix.h"
+#include "src/common/point.h"
+#include "src/common/cluster.h"
 
 using namespace std;
 

@@ -17,9 +17,9 @@
 #include <queue>
 
 #include "src/algorithms/fuzzycmeans.h"
-#include "src/core/matrix.h"
-#include "src/core/cluster.h"
-#include "src/core/validation.h"
+#include "src/common/matrix.h"
+#include "src/common/cluster.h"
+#include "src/common/validation.h"
 
 using namespace std;
 

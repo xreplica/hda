@@ -19,8 +19,8 @@
 #include <fstream>
 #include <iomanip>
 
-#include "src/core/matrix.h"
-#include "src/core/cluster.h"
+#include "src/common/matrix.h"
+#include "src/common/cluster.h"
 
 using namespace std;
 

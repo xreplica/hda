@@ -7,7 +7,7 @@
  * $Author: francois $
  * $Date: 2015-08-18 20:31:22 -0400 (Tue, 18 Aug 2015) $
  * $Revision: 38 $
- * $URL: https://127.0.0.1:10000/svn/hda/trunk/src/core/params.cpp $
+ * $URL: https://127.0.0.1:10000/svn/hda/trunk/src/common/params.cpp $
  */
 
 #ifndef __PARAMS_CPP__
@@ -15,7 +15,7 @@
 
 #include <iostream>
 
-#include "src/core/params.h"
+#include "src/common/params.h"
 
 using namespace std;
 

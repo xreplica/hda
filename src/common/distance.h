@@ -7,7 +7,7 @@
  * $Author: francois $
  * $Date: 2015-08-18 20:31:22 -0400 (Tue, 18 Aug 2015) $
  * $Revision: 38 $
- * $URL: https://127.0.0.1:10000/svn/hda/trunk/src/core/distance.h $
+ * $URL: https://127.0.0.1:10000/svn/hda/trunk/src/common/distance.h $
  */
 
 #ifndef __DISTANCE_H__
@@ -18,7 +18,7 @@
 #include <vector>
 #include <sstream>
 
-#include "src/core/matrix.h"
+#include "src/common/matrix.h"
 
 class Point;
 class Cluster;

@@ -14,7 +14,7 @@
 #include <cstdlib>
 
 #include "src/algorithms/fuzzyentropy.h"
-#include "src/core/validation.h"
+#include "src/common/validation.h"
 
 using namespace std;
 

@@ -7,7 +7,7 @@
  * $Author: francois $
  * $Date: 2015-08-18 20:31:22 -0400 (Tue, 18 Aug 2015) $
  * $Revision: 38 $
- * $URL: https://127.0.0.1:10000/svn/hda/trunk/src/core/distance.cpp $
+ * $URL: https://127.0.0.1:10000/svn/hda/trunk/src/common/distance.cpp $
  */
 
 #ifndef __DISTANCE_CPP__
@@ -15,8 +15,8 @@
 
 //#define CACHE_DISTANCES
 
-#include "src/core/distance.h"
-#include "src/core/point.h"
+#include "src/common/distance.h"
+#include "src/common/point.h"
 
 //CONSTRUCTORS
 

@@ -1,1 +1,1 @@
-subdirs(core)
+subdirs(common)

@@ -1,4 +1,4 @@
-include_directories("${PROJECT_SOURCE_DIR}" "${PROJECT_SOURCE_DIR}/src/core" "${PROJECT_SOURCE_DIR}/src/algorithms" "${CMAKE_SOURCE_DIR}/algorithms")
+include_directories("${PROJECT_SOURCE_DIR}" "${PROJECT_SOURCE_DIR}/src/common" "${PROJECT_SOURCE_DIR}/src/algorithms" "${CMAKE_SOURCE_DIR}/algorithms")
 
 set(TARGETS $<TARGET_OBJECTS:point> $<TARGET_OBJECTS:cluster> $<TARGET_OBJECTS:matrix> $<TARGET_OBJECTS:validation> $<TARGET_OBJECTS:distance> $<TARGET_OBJECTS:params>)
 

@@ -13,7 +13,7 @@
 #include <iostream>
 
 #include "src/algorithms/kmeansplus.h"
-#include "src/core/validation.h"
+#include "src/common/validation.h"
 
 using namespace std;
 

@@ -4,7 +4,7 @@
  * $Author: francois $
  * $Date: 2015-08-18 20:31:22 -0400 (Tue, 18 Aug 2015) $
  * $Revision: 38 $
- * $URL: https://127.0.0.1:10000/svn/hda/trunk/src/core/matrix.h $
+ * $URL: https://127.0.0.1:10000/svn/hda/trunk/src/common/matrix.h $
  */
 
 #ifndef __MATRIX_H__

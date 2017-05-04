@@ -1,6 +1,6 @@
 #include <algorithm>
 
-#include "src/core/point.h"
+#include "src/common/point.h"
 #include "gtest/gtest.h"
 
 using namespace std;
